@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>eishub</groupId>
-    <artifactId>ElevatorSim</artifactId>
+    <artifactId>HelloWorldEnvironment</artifactId>
     <version>1.1.0-SNAPSHOT</version>
-    <name>ElevatorSim</name>
-    <description>ElevatorSim Environment</description>
-    <url>http://www.github.com/eishub/ElevatorSim</url>
+    <name>HelloWorldEnvironment</name>
+    <description>HelloWorld Environment</description>
+    <url>http://www.github.com/eishub/HelloWorldEnvironment</url>
 
     <licenses>
         <license>
@@ -23,8 +23,8 @@
 
     <properties>
         <version>0.1.0</version>
-        <main.class>EnvironmentInterface</main.class>
-        <main.class.package>elevatorenv</main.class.package>
+        <main.class>HelloWorldEnvironment</main.class>
+        <main.class.package>nl.tudelft.goal.helloworld</main.class.package>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <github.global.server>github</github.global.server>
     </properties>
@@ -49,7 +49,7 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:http://github.com/eishub/elevatorsim.git</connection>
+        <connection>scm:git:http://github.com/eishub/HelloWorldEnvironment.git</connection>
     </scm>
 
     <build>
