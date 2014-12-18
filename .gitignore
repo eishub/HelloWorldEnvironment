@@ -2,3 +2,5 @@
 /target/
 /pom.xml.versionsBackup
 /bin/
+/.settings/
+/.classpath
