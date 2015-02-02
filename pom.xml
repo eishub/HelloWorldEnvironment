@@ -11,7 +11,7 @@
 	
 	
 	<groupId>eishub</groupId>
-	<artifactId>${environmentname}</artifactId>
+	<artifactId>HelloWorldEnvironment</artifactId>
 	<version>1.1.1-SNAPSHOT</version>
 	<name>${environmentname}</name>
 	<description>A window where agents can write text messages.</description>
