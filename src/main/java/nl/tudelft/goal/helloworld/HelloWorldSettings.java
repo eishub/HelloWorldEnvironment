@@ -6,11 +6,8 @@ import java.util.prefs.Preferences;
  * Static object to store settings
  * 
  * @author W.Pasman 27jan2014
- * 
  */
-
 public class HelloWorldSettings {
-
   /**
    * Use the global preference store for this user to store the settings.
    */
@@ -47,7 +44,6 @@ public class HelloWorldSettings {
     HelloWorldSettings.prefs.putInt("y", y);
     HelloWorldSettings.prefs.putInt("width", width);
     HelloWorldSettings.prefs.putInt("height", height);
-
   }
 
   /**
@@ -68,5 +64,4 @@ public class HelloWorldSettings {
   public static int getHeight() {
     return Math.max(200, HelloWorldSettings.prefs.getInt("height", 400));
   }
-
 }
