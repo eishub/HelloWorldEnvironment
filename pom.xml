@@ -10,7 +10,7 @@
 	
 	<groupId>eishub</groupId>
 	<artifactId>HelloWorldEnvironment</artifactId>
-	<version>1.1.1-SNAPSHOT</version>
+	<version>1.2.0-SNAPSHOT</version>
 	<name>${environmentname}</name>
 	<description>A window where agents can write text messages.</description>
 	<url>http://www.github.com/eishub/${environmentname}</url>
@@ -58,7 +58,7 @@
 		<dependency>
 			<groupId>eishub</groupId>
 			<artifactId>eis</artifactId>
-			<version>0.5.1-SNAPSHOT</version>
+			<version>0.6.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
