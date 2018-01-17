@@ -5,7 +5,6 @@ import javax.swing.JTextArea;
 import eis.eis2java.annotation.AsAction;
 import eis.eis2java.annotation.AsPercept;
 
-
 /**
  * An entity in the hello world environment which is capable of printing text to
  * the system.out.

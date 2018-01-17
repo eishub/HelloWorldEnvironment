@@ -21,7 +21,6 @@ import eis.iilang.Parameter;
  * @author Lennard de Rijk
  */
 public class HelloWorldEnvironment extends AbstractEnvironment {
-
   private static final long serialVersionUID = 1L;
   private JFrame outputWindow; // kill resets this to null.
 
@@ -36,22 +35,21 @@ public class HelloWorldEnvironment extends AbstractEnvironment {
     } catch (EntityException e) {
       e.printStackTrace();
     }
-
   }
 
   /**
    * Initialize the "world": an output text window.
    */
   private JTextArea initWindow() {
-    JTextArea textArea;
-
     outputWindow = new JFrame();
-    outputWindow.setLayout(new BorderLayout());
-    textArea = new JTextArea();
-    outputWindow.add(new JScrollPane(textArea));
+    outputWindow.setLayout(new BorderLayout());;
     outputWindow.setSize(HelloWorldSettings.getWidth(), HelloWorldSettings.getHeight());
     outputWindow.setLocation(HelloWorldSettings.getX(), HelloWorldSettings.getY());
     outputWindow.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+    
+    JTextArea textArea = new JTextArea();
+    textArea.setFont(textArea.getFont().deriveFont(12f));
+    outputWindow.add(new JScrollPane(textArea));
 
     outputWindow.setVisible(true);
     return textArea;
@@ -64,7 +62,6 @@ public class HelloWorldEnvironment extends AbstractEnvironment {
         outputWindow.getWidth(), outputWindow.getHeight());
     outputWindow.setVisible(false);
     outputWindow = null;
-
   }
 
   @Override
@@ -81,6 +78,4 @@ public class HelloWorldEnvironment extends AbstractEnvironment {
   protected boolean isSupportedByType(Action action, String type) {
     return true;
   }
-
-
 }
