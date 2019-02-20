@@ -12,7 +12,7 @@
 	<description>A window where agents can write text messages.</description>
 	<url>https://github.com/eishub/HelloWorldEnvironment</url>	
 
-	<version>1.2.1</version>
+	<version>1.2.2-SNAPSHOT</version>
 	<name>HelloWorldEnvironment</name>
 	
 	<licenses>
