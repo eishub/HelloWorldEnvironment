@@ -15,15 +15,15 @@ Dependency information
 
 ```
 <repository>
- <id>eishub-mvn-repo</id>
- <url>https://raw.github.com/eishub/mvn-repo/master</url>
+  <id>eishub-mvn-repo</id>
+  <url>https://raw.github.com/eishub/mvn-repo/master</url>
 </repository>
 ```
 	
 ```	
 <dependency>
-	<groupId>eishub</groupId>
-	<artifactId>HelloWorldEnvironment</artifactId>
-	<version>1.2.0</version>
+  <groupId>eishub</groupId>
+  <artifactId>HelloWorldEnvironment</artifactId>
+  <version>1.3.0</version>
 </dependency>
 ```
